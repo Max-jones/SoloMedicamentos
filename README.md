@@ -1,2 +1,2 @@
 # SoloMedicamentos
-Plataforma para cotizar medicamentos online comparando donde se encuentra el mejor precio.
+Plataforma para cotizar medicamentos online y asi encontrar el mejor precio.
