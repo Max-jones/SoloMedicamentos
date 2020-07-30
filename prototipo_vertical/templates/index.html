@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SoloMedicamentos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+</head>
+
+<body>
+  <div class="searchBar">
+    <p>Ingrese el nombre del medicamento</p>
+    <input type="search" id="med_name">
+    <button class="btn-search" id="searchButton"> Buscar </button>
+  </div>
+
+  <div>
+    <table id="results" class="table">
+      
+    </table>
+
+  </div>
+  </div>
+
+  <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  <script type="text/javascript">
+    var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+  </script>
+
+</body>
+</html>
+
