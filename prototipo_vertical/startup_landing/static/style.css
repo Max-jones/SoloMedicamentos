@@ -1110,7 +1110,7 @@ form textarea {
  */
 .hero {
   text-align: center;
-  color: white; }
+  color: black; }
   .hero .container {
     padding-top: 100px;
     padding-bottom: 100px; }
@@ -1346,12 +1346,14 @@ button:active {
   user-select: none;
 }
 .table{
-  max-width: 90%;
+  
   /* font-family: Montserrat-Regular; */
   font-size: 25px;
   border: 2px solid #000;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  color: 000;
 
 }
 td {

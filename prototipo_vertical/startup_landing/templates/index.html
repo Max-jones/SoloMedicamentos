@@ -27,28 +27,29 @@
 		<div class="site-content">
 			<header class="hero" data-bg-image="static/images/banner.jpg">
 				<div class="container">
-					<a href="#" class="branding"><img src="static\images/logo.png" alt="Start-up"></a>
+					<a href="#" class="branding"><img src="static\images/logo_sm.png" alt="Start-up"></a>
 					<div class="hero-content">
 						<h1>Encuentra el medicamento que <strong>necesitas</strong> <br><strong>al mejor precio</strong></h1>
 					</div>
+					<!--
 					<div class="searchBar">
 						<p>Ingrese el nombre del medicamento</p>
 						<input type="search" id="med_name">
 						<button class="btn-search" id="searchButton"> Buscar </button>
 					  </div>
 					
-					  <div>
+					  </div>
+					-->
+					<form class="subscribe-form">
+						<input type="text" placeholder="Ingrese el medicamento que deseas buscar"  id="newSearchBar">
+						<input type="submit" value="Buscar" id="submitButton">
+					</form>
+					<div>
 						<table id="results" class="table">
 						  
 						</table>
 						<div class="searchBar" id="Error"></div>
 					  </div>
-					  </div>
-					<form class="subscribe-form">
-						<input type="text" placeholder="Ingrese el medicamento que deseas buscar">
-						<input type="submit" value="Buscar">
-					</form>
-					
 					<span class="scrolldown">Desliza hacia abajo para ver más <br><i class="fa fa-chevron-down"></i></span>
 				</div>
 			</header> <!-- hero -->

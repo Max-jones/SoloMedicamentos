@@ -16,8 +16,8 @@
 
 	});
 	
-    $('#searchButton').click(function() {
-        med_name = document.getElementById("med_name").value;
+    $('#submitButton').click(function() {
+        med_name = document.getElementById("newSearchBar").value;
         console.log("Buscando medicamento: " + med_name);
         $.getJSON($SCRIPT_ROOT + '/_searchMed', {
             medName: med_name            
