@@ -1317,7 +1317,7 @@ button {
   height: 30px;
   border: none;
   box-shadow: 1px 2px #666;
-  color: #8E2DE2;
+  color: #4a7cd5;
 }
 
 button:focus {outline:0 !important;}
@@ -1331,4 +1331,37 @@ button:active {
   width: 120px;
   height: 55px;
   border-radius: 25px;
+}
+.searchBar {
+  /* font-family: Montserrat-Regular; */
+  font-size: 35px;
+  color: #ffffff;
+  width: 600px;
+  height: 200px;
+  margin: 10% auto auto;
+  border-radius: 20px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.table{
+  max-width: 90%;
+  /* font-family: Montserrat-Regular; */
+  font-size: 25px;
+  border: 2px solid #000;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+td {
+  border: 1px solid #000;
+  background: linear-gradient(4deg, rgb(174, 207, 230) 0%, rgba(212,238,209,1) 100%);
+  color: 000;
+}
+
+th {
+  border: 1px solid #000;
+  background: linear-gradient(0deg, #4a7cd5 0%, rgba(15, 98, 131, 0.582) 100%);
+  color: 000;
 }
