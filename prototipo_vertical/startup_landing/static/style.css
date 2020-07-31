@@ -1310,3 +1310,25 @@ dl dd {
       background-color: #d3492c; }
     .social-links a.pinterest {
       background-color: #ca2128; }
+button {
+  margin: 5px;
+  padding: 3px 10px;
+  width: 50px;
+  height: 30px;
+  border: none;
+  box-shadow: 1px 2px #666;
+  color: #8E2DE2;
+}
+
+button:focus {outline:0 !important;}
+
+button:active {
+  box-shadow: none;
+  transform: translateY(4px);
+}
+
+.btn-search {
+  width: 120px;
+  height: 55px;
+  border-radius: 25px;
+}

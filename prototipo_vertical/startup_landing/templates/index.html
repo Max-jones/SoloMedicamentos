@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 		
-		<title>Startup Landing Page</title>
+		<title>SoloMedicamentos - Encuentra el mejor precio de tus medicamentos y recíbelos en la puerta de tu casa</title>
 
 		<!-- Loading third party fonts -->
 		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
@@ -31,7 +31,19 @@
 					<div class="hero-content">
 						<h1>Encuentra el medicamento que <strong>necesitas</strong> <br><strong>al mejor precio</strong></h1>
 					</div>
+					<div class="searchBar">
+						<p>Ingrese el nombre del medicamento</p>
+						<input type="search" id="med_name">
+						<button class="btn-search" id="searchButton"> Buscar </button>
+					  </div>
 					
+					  <div>
+						<table id="results" class="table">
+						  
+						</table>
+						<div class="searchBar" id="Error"></div>
+					  </div>
+					  </div>
 					<form class="subscribe-form">
 						<input type="text" placeholder="Ingrese el medicamento que deseas buscar">
 						<input type="submit" value="Buscar">
