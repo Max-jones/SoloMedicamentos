@@ -7,12 +7,21 @@
 
     :copyright: (c) 2015 by Grey li.
     :license: MIT, see LICENSE for more details.
+
+    Para instalar
+
+    pip install flask bs4 requests
 """
+
 import re
+# 
+# import flask
 from flask import Flask, jsonify, render_template, request
 
 from bs4 import BeautifulSoup # BeautifulSoup is in bs4 package
 import requests
+
+app = Flask(__name__)
 
 def salcobrand(nombre_medicamento):
 
@@ -99,7 +108,6 @@ def farmazon(nombre_medicamento):
     return 0
 
 
-app = Flask(__name__)
 
 @app.route('/_searchMed')
 def searchMed():
@@ -136,4 +144,4 @@ def index():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=3000, debug=True)

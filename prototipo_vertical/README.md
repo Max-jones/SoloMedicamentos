@@ -1,10 +1,12 @@
 # SoloMedicamentos
-Prototipo vertical para obtener medicamentos
+Prototipo vertical para obtener precios de medicamentos
 
 ## Versions
 Flask==0.11.1  
 Jinja2==2.8  
-Werkzeug==0.11.11  
+Werkzeug==0.11.11 
+
+
 
 
 ## Installation
@@ -18,6 +20,11 @@ Run:
 set FLASK_APP=app.py    
 flask run
 ```
+
+## In powershell
+'' run this
+$env:FLASK_APP = "app.py"
+flask run
 
 Go to http://127.0.0.1:5000/
 
